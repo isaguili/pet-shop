@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family-title: "Inter Tight", sans-serif;
+  --font-family-base: "Inter", sans-serif;
+
+  /* Content Colors */
+  --content-primary: #fff6d6;
+  --content-secondary: #e6d9a8;
+  --content-tertiary: #bfae73;
+  --color-brand: #ffd447; /* amarelo destaque */
+
+  /* Background Colors */
+  --background-primary: #121212;
+  --background-secondary: #1a1a1a;
+  --background-tertiary: #222222;
+  --background-brand: #3b3214; /* amarelo escuro */
+  --background-highlights: #2a2410;
+
+  /* Border Colors */
+  --border-primary: #2c2c2c;
+  --border-secondary: #444444;
+  --border-brand: #ffd447;
+  --border-divisor: #262626;
+
+  /* Typography Scales */
+  --text-title: 700 1.5rem/2rem var(--font-family-title);
+  --text-hour-periods: 700 1rem/1.25rem var(--font-family-title);
+  --text-paragraph-md: 500 0.875rem/1.5rem var(--font-family-base);
+  --text-paragraph-sm: 500 0.75rem/1rem var(--font-family-base);
+  --text-label-lg: 700 1rem/1.5rem var(--font-family-base);
+  --text-label-md: 700 0.875rem/1.5rem var(--font-family-base);
+  --text-label-sm: 700 0.75rem/1rem var(--font-family-base);
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--background-primary);
+  color: var(--content-primary);
+}

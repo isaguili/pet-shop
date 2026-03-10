@@ -1,0 +1,40 @@
+h1,
+h2 {
+  font: var(--text-title);
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  font: var(--text-paragraph-md);
+  color: var(--content-secondary);
+}
+
+p {
+  color: var(--content-secondary);
+  font: var(--text-paragraph-md);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.blur {
+  filter: blur(6px);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,0 +1,46 @@
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: var(--text-paragraph-sm);
+  color: var(--content-tertiary);
+}
+
+#open-form,
+#schedule-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 13.625rem;
+  height: 2.8125rem;
+  padding: 0.75rem 1.25rem;
+  gap: 0.5rem;
+
+  background: var(--color-brand);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 30px 0 #ffd4475b;
+
+  text-transform: uppercase;
+  font-family: var(--text-title);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--background-primary);
+}
+
+#open-form {
+  margin-inline: auto;
+}
+
+#schedule-submit {
+  margin-top: 1rem;
+  margin-left: auto;
+}
+
+@media (width >= 80em) {
+  #open-form {
+    position: fixed;
+    right: 1.875rem;
+    bottom: 1.875rem;
+  }
+}

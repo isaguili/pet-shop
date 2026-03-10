@@ -1,0 +1,54 @@
+.container {
+  max-width: 390px;
+  margin-inline: auto;
+}
+
+.logo-mobile {
+  position: absolute;
+  width: 9.5625rem;
+  padding: 0.75rem 1.25rem;
+
+  border-radius: 0 0 0.75rem 0;
+  background-color: var(--background-secondary);
+}
+
+.logo-desktop {
+  display: none;
+}
+
+#app {
+  padding: 4.3125rem 1.25rem 0;
+  gap: 2rem;
+
+  & > header p {
+    margin-block: 0.25rem 0.75rem;
+  }
+
+  & > header .input-wrapper {
+    width: fit-content;
+  }
+}
+
+@media (width >= 80em) {
+  .container {
+    max-width: 54.4375rem;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: block;
+    position: absolute;
+    width: 9.5625rem;
+    padding: 0.75rem 1.25rem;
+
+    border-radius: 0 0 0.75rem 0;
+    background-color: var(--background-secondary);
+  }
+
+  #app {
+    padding: 3rem 5rem;
+  }
+}
