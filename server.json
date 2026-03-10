@@ -19,15 +19,6 @@
       "date": "2026-03-10"
     },
     {
-      "id": "1773095074788",
-      "petOwner": "Carlos Pereira",
-      "petName": "Max",
-      "phone": "(31) 99876 5432",
-      "service": "Corte de Unhas",
-      "hour": "12:00",
-      "date": "2026-03-10"
-    },
-    {
       "id": "1773095074789",
       "petOwner": "Mariana Oliveira",
       "petName": "Mel",
@@ -43,15 +34,6 @@
       "phone": "(31) 91234 5678",
       "service": "Banho",
       "hour": "15:00",
-      "date": "2026-03-10"
-    },
-    {
-      "id": "1773095074793",
-      "petOwner": "Fernanda Dias",
-      "petName": "Pipoca",
-      "phone": "(31) 93344 5566",
-      "service": "Banho",
-      "hour": "17:00",
       "date": "2026-03-10"
     },
     {
