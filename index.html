@@ -1,11 +1,147 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Mundo Pet</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-</body>
+    <title>Meu Mundo Pet</title>
+    <link rel="icon" type="image/x-icon" href="/src/assets/dog.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="logo-desktop">
+      <img src="/src/assets/logo.svg" alt="logo image" />
+    </div>
+
+    <main class="container">
+      <div class="logo-mobile">
+        <img src="/src/assets/logo.svg" alt="logo image" />
+      </div>
+
+      <div id="app" class="flex-column">
+        <header class="">
+          <h1>Sua agenda</h1>
+          <p>Aqui você pode ver todos os clientes e serviços agendados.</p>
+          <div class="input-wrapper">
+            <label for="date" class="sr-only">Data</label>
+            <i><img src="./src/assets/calendar.svg" alt="Calendário" /></i>
+            <input type="date" id="date" name="date" required />
+          </div>
+        </header>
+
+        <div id="schedule" class="flex-column">
+          <section class="schedule-period" id="morning-period">
+            <div class="period-header">
+              <img src="/src/assets/sun-fog.svg" alt="sun fog" />
+              <strong>Manhã</strong>
+              <span>09h-12h</span>
+            </div>
+            <ul class="cards"></ul>
+          </section>
+
+          <section class="schedule-period flex-column" id="afternoon-period">
+            <div class="period-header">
+              <img src="/src/assets/cloud-sun.svg" alt="cloud sun" />
+              <strong>Tarde</strong>
+              <span>13h-18h</span>
+            </div>
+            <ul class="cards"></ul>
+          </section>
+
+          <section class="schedule-period" id="night-period">
+            <div class="period-header flex-column">
+              <img src="/src/assets/moon-stars.svg" alt="moon stars" />
+              <strong>Noite</strong>
+              <span>19h-22h</span>
+            </div>
+            <ul class="cards"></ul>
+          </section>
+        </div>
+
+        <button id="open-form">Novo agendamento</button>
+
+        <form class="flex-column form-closed">
+          <img
+            src="/src/assets/close-icon.svg"
+            alt="ícone de fechar"
+            id="close-form"
+          />
+          <header>
+            <h2>Agende um atendimento</h2>
+            <p>Preencha os dados do cliente para realizar o agendamento:</p>
+          </header>
+
+          <fieldset id="schedule-data" class="flex-column">
+            <label for="pet-owner">Nome do(a) tutor(a)</label>
+            <div class="input-wrapper">
+              <i><img src="/src/assets/user.svg" alt="Ícone de usuário" /></i>
+              <input type="text" id="pet-owner" name="pet-owner" required />
+            </div>
+
+            <label for="pet-name">Nome do(a) pet</label>
+            <div class="input-wrapper">
+              <i><img src="/src/assets/pet-paw.svg" alt="Ícone de pegada" /></i>
+              <input type="text" id="pet-name" name="pet-name" required />
+            </div>
+
+            <label for="phone">Telefone</label>
+            <div class="input-wrapper">
+              <i><img src="/src/assets/phone.svg" alt="Ícone de telefone" /></i>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="(00) 00000 0000"
+                maxlength="15"
+                required
+              />
+            </div>
+
+            <label for="service">Descrição do serviço</label>
+            <div class="input-wrapper">
+              <textarea id="service" name="service" required></textarea>
+            </div>
+
+            <div class="hour-and-date">
+              <div>
+                <label for="schedule-date">Data</label>
+                <div class="input-wrapper">
+                  <i><img src="/src/assets/calendar.svg" alt="Calendário" /></i>
+                  <input
+                    type="date"
+                    id="schedule-date"
+                    name="schedule-date"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="schedule-hour">Horário</label>
+                <div class="input-wrapper">
+                  <i><img src="/src/assets/clock.svg" alt="Relógio" /></i>
+                  <select
+                    id="schedule-hour"
+                    name="schedule-hour"
+                    list="hours-list"
+                    required
+                  >
+                    <option value="">Selecione um horário</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <button id="schedule-submit">Agendar</button>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+  </body>
 </html>
