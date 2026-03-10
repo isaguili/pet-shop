@@ -15,3 +15,4 @@ import "./scripts/form/open-close-form.js"
 import "./scripts/form/input-phone.js";
 import "./scripts/form/input-date.js";
 import "./scripts/form/input-hour.js";
+import "./scripts/form/submit.js";
