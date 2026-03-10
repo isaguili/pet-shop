@@ -1,24 +1,6 @@
 {
   "schedules": [
     {
-      "id": "1773093448503",
-      "petOwner": "Isabella Guimarães",
-      "petName": "Cazuza",
-      "phone": "(31) 97527 1961",
-      "service": "Banho e tosa",
-      "hour": "20:00",
-      "date": "2026-03-10"
-    },
-    {
-      "id": "1773093596738",
-      "petOwner": "Giovana Dias",
-      "petName": "Pitoco",
-      "phone": "(31) 98956 2267",
-      "service": "Limpeza de tártaro",
-      "hour": "22:00",
-      "date": "2026-03-10"
-    },
-    {
       "id": "1773095074785",
       "petOwner": "Isabella Guimarães",
       "petName": "Cazuza",
@@ -28,14 +10,22 @@
       "date": "2026-03-10"
     },
     {
-      "id": "1773167553384",
-      "petOwner": "Giovana Dornelas",
-      "petName": "Pitoco",
-      "phone": "(31) 99988 8559",
-      "service": "Limpeza",
-      "hour": "16:00",
+      "id": "1773095074786",
+      "petOwner": "João Silva",
+      "petName": "Rex",
+      "phone": "(31) 98765 4321",
+      "service": "Tosa",
+      "hour": "15:00",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "1773095074788",
+      "petOwner": "Carlos Pereira",
+      "petName": "Max",
+      "phone": "(31) 99876 5432",
+      "service": "Banho e Tosa",
+      "hour": "17:00",
       "date": "2026-03-10"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }

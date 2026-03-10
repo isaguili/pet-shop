@@ -2,8 +2,6 @@ import { checkPhoneNumber } from "./validation.js";
 import { createSchedule } from "../services/create-schedule.js";
 import { closeForm } from "./open-close-form.js";
 import { updateSchedule } from "../load/schedule-load.js";
-import {updateAvailableHours} from "./input-hour.js";
-
 
 //elementos do formulário
 const form = document.querySelector("form");
@@ -36,7 +34,6 @@ form.addEventListener("submit", async (event) => {
     //atualiza formulário
     clearInputs();
     closeForm();
-    await updateAvailableHours();
 
     //atualiza agenda
     selectedDate.value = dateInput.value;
