@@ -1,3 +1,5 @@
+import { updateAvailableHours } from "../form/input-hour.js";
+
 const form = document.querySelector("form");
 const openFormBtn = document.getElementById("open-form");
 const closeFormBtn = document.getElementById("close-form");
@@ -5,8 +7,9 @@ const schedule = document.getElementById("schedule");
 const headerApp = document.querySelector("#app header");
 
 //botão para abrir formulário
-openFormBtn.addEventListener("click", async () => {
+openFormBtn.addEventListener("click", () => {
   openForm();
+  updateAvailableHours();
 });
 
 //botão para fechar formulário

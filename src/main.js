@@ -9,6 +9,7 @@ import "./styles/button.css";
 //page
 import "./scripts/load/schedule-load.js"
 import "./scripts/load/page-load.js"
+import "./scripts/load/remove-schedule.js"
 
 //form
 import "./scripts/form/open-close-form.js"
