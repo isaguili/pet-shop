@@ -74,6 +74,7 @@
 
   &::-webkit-calendar-picker-indicator {
     background: transparent;
+    cursor: pointer;
   }
 }
 
