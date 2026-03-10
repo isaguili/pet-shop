@@ -80,6 +80,7 @@
 
 select {
   appearance: none;
+  cursor: pointer;
 }
 
 .input-wrapper:has(#schedule-hour)::after {
@@ -94,7 +95,6 @@ body.light-mode #date, #schedule-date, .input-wrapper:has(#schedule-hour) {
     height: 1.25rem;
     background: url(/src/assets/arrow-icon-light.svg) no-repeat center;
 
-    right: 0;
     top: 50%;
     transform: translateY(-50%);
     z-index: -1;
