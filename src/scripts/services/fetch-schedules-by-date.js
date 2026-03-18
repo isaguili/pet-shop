@@ -6,9 +6,12 @@ export async function fetchSchedulesByDate(date) {
     const response = await fetch(`${apiConfig.baseURL}/schedules?date=${date}`);
     const data = await response.json();
 
+    //corrigindo comportamento de mockAPI, se data retornar "Not found", transformamos em um array vazio
+    const schedules = data === "Not found" ? [] : data;
+
     //sort() percorre o array e organiza os horários em ordem crescente ao comparar as strings de horário usando localeCompare
-    const sortedData = [...data].sort((a, b) => a.hour.localeCompare(b.hour));
-    return sortedData;
+    const sortedSchedules = [...schedules].sort((a, b) => a.hour.localeCompare(b.hour));
+    return sortedSchedules;
   } catch (error) {
     alert(
       "Erro ao carregar os horários. Por favor, tente novamente mais tarde.",
