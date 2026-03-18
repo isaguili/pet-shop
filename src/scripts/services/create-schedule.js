@@ -13,7 +13,7 @@ export async function createSchedule({
   try {
     await fetch(`${apiConfig.baseURL}/schedules`, {
       method: "POST",
-      header: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         id,
         petOwner,
