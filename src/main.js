@@ -17,3 +17,6 @@ import "./scripts/form/input-phone.js";
 import "./scripts/form/input-date.js";
 import "./scripts/form/input-hour.js";
 import "./scripts/form/submit.js";
+
+//layout
+import "./scripts/form/layout.js"

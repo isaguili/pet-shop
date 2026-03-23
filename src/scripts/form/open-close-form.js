@@ -1,4 +1,5 @@
 import { updateAvailableHours } from "../form/input-hour.js";
+import { adjustContainerHeight } from "../form/layout.js"
 
 const form = document.querySelector("form");
 const openFormBtn = document.getElementById("open-form");
@@ -10,11 +11,13 @@ const headerApp = document.querySelector("#app header");
 openFormBtn.addEventListener("click", () => {
   openForm();
   updateAvailableHours();
+  adjustContainerHeight();
 });
 
 //botão para fechar formulário
 closeFormBtn.addEventListener("click", (event) => {
   closeForm();
+  adjustContainerHeight();
 });
 
 function openForm() {

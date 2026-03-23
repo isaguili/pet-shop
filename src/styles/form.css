@@ -47,8 +47,6 @@ fieldset {
 
 @media (width >= 80em) {
   form {
-    top: 50%;
-    transform: translate(-50%, -50%);
     width: 30rem;
     padding: 2rem;
   }
