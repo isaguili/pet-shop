@@ -1,6 +1,7 @@
 # 🐶 Pet Shop Scheduler
 
-Projeto desenvolvido durante a Trilha FullStack da Rocketseat, com o objetivo de praticar o desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript. Durante o desenvolvimento foram explorados conceitos como manipulação da DOM, consumo de APIs com fetch e persistência de dados utilizando json-server.
+Projeto desenvolvido durante a Trilha FullStack da Rocketseat, com o objetivo de praticar o desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript. Durante o desenvolvimento foram explorados conceitos de manipulação da DOM, consumo de API REST, persistência de dados, empacotamento de módulos e transpilação de código.
+
 
 ## 🎯 Objetivo
 Este projeto foi construído para:
@@ -15,18 +16,21 @@ Este projeto foi construído para:
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/json--server-000000?style=for-the-badge&logo=json&logoColor=white"/>
+   <img src="https://img.shields.io/badge/mockapi-5C5CFF?style=for-the-badge&logo=mockapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/webpack-1C78C0?style=for-the-badge&logo=webpack&logoColor=white"/>
+  <img src="https://img.shields.io/badge/babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=black"/>
 </p>
 
 ## 📚 Principais aprendizados
-- Uso de **fetch API** para buscar, criar e remover agendamentos.
-- Organização da lógica da aplicação em **funções responsáveis por diferentes comportamentos** da interface.
-- Implementação de **formulários dinâmicos**, capturando e validando dados antes do envio.
-- Integração com **API simulada utilizando json-server**, permitindo simular persistência de dados.
+- Consumo de API utilizando **fetch**, integrando com **MockAPI** para leitura e escrita de dados.  
+- Compreensão do conceito de **persistência de dados** por meio de uma API externa.  
+- Organização do código em módulos e separação de responsabilidades.  
+- Utilização do **Webpack** para empacotamento e organização dos arquivos do projeto.  
+- Uso do **Babel** para garantir compatibilidade de código JavaScript moderno com diferentes navegadores.  
 
 ## 💡 Observações
 Este projeto faz parte dos exercícios práticos da formação **FullStack da Rocketseat**, com foco em consolidar conceitos fundamentais de **JavaScript aplicado à interface e manipulação de dados**.
 
-## 👩‍💻 Autora
+### Por:
 **Isabella Guimarães**  
 Estudante de Análise e Desenvolvimento de Sistemas  
