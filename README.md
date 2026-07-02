@@ -6,6 +6,8 @@ Projeto desenvolvido durante a Trilha FullStack da Rocketseat, com o objetivo de
 
 <img width="1898" height="924" alt="{AB2B7198-7D83-4348-9687-EF38D7C35276}" src="https://github.com/user-attachments/assets/c45192ce-d018-4626-9469-5adb590534d4" />
 
+🔗 Acesse a aplicação: https://pet-shop-ruby-ten.vercel.app/
+
 
 ## Funcionalidades
 
@@ -56,43 +58,38 @@ pet-shop/
 
 ## Como executar
 
-### Clone o projeto
+1. Clone o repositório:
 
 ```bash
 git clone https://github.com/isaguili/pet-shop.git
 ```
 
-### Entre na pasta
+2. Acesse a pasta do projeto:
 
 ```bash
 cd pet-shop
 ```
 
-### Instale as dependências
+3. Instale as dependências
 
 ```bash
 npm install
 ```
 
-### Inicie a API
+4. Inicie a API:
 
 ```bash
 npm run server
 ```
 
-### Inicie o projeto
+5. Inicie o projeto:
 
 ```bash
 npm run dev
 ```
 
-O projeto ficará disponível em:
+Após iniciar, a API estará disponível em:
 
 ```
 http://localhost:3333
 ```
-
-
-### 👩‍💻 Autora
-**Isabella Guimarães**  
-Estudante de Análise e Desenvolvimento de Sistemas
